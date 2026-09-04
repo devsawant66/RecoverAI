@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+faker
+joblib
+python-dotenv
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+streamlit
+plotly
