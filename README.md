@@ -10,7 +10,7 @@ Instead of blindly retrying every failed transaction, RECOVERAI evaluates paymen
 
 ---
 
-## 🚀 The Problem
+##  The Problem
 
 A failed payment is not always a lost customer.
 
@@ -73,7 +73,7 @@ Machine Learning + Decision Intelligence + Policy Controls + Human Escalation + 
                        │
                        ▼
                 ₹ Revenue Impact
-🧠 How RECOVERAI Works
+ How RECOVERAI Works
 1. Payment Failure Detection
 
 RECOVERAI starts with failed payment transactions containing information such as:
@@ -113,7 +113,7 @@ recovered_amount
 
 to avoid target leakage.
 
-📊 Machine Learning Performance
+Machine Learning Performance
 Metric	Result
 Accuracy	67.65%
 Precision	71.88%
@@ -123,7 +123,7 @@ ROC-AUC	72.42%
 
 These are ML classification metrics. They are different from the business recovery rate reported below.
 
-🤖 3. Recovery Decision Engine
+ 3. Recovery Decision Engine
 
 The ML model predicts probability, but it does not directly authorize an action.
 
@@ -149,7 +149,7 @@ Payment Amount = ₹5,000
 Recovery Probability = 80%
 
 Expected Recovery Value = ₹4,000
-🛡️ 4. Policy & Safety Engine
+4. Policy & Safety Engine
 
 Prediction does not automatically mean permission.
 
@@ -174,7 +174,7 @@ Recommended Action
 Policy Validation
       ↓
 Allowed / Escalated / Blocked / Stopped
-💰 5. Revenue Recovery Evaluation
+ 5. Revenue Recovery Evaluation
 
 RECOVERAI was evaluated using a 4,000-payment synthetic action-aware evaluation batch.
 
@@ -195,7 +195,7 @@ Evaluation revenue at risk
 
 ₹1.13 crore
 
-📈 Evaluation Summary
+ Evaluation Summary:
 Evaluation payments        4,000
 Revenue at risk            ₹1.13 Cr
 Baseline recovered         ₹25.82 L
@@ -210,7 +210,7 @@ Blocked actions            0
 
 Important: These results come from a synthetic action-aware evaluation and do not represent real production Razorpay transactions or real recovered money.
 
-🔍 Recovery Actions
+ Recovery Actions:
 
 RECOVERAI does not apply one recovery strategy to every failure.
 
@@ -258,7 +258,7 @@ Current evaluation:
 
 This provides a controlled balance between automation and human oversight.
 
-📋 Auditability
+ Auditability:
 
 Every recovery workflow can be represented as a traceable decision:
 
@@ -291,7 +291,7 @@ Policy status
 Execution status
 Recovery result
 Recovered amount
-📊 RECOVERAI Command Center
+RECOVERAI Command Center:
 
 The project includes a Streamlit dashboard with:
 
@@ -323,7 +323,7 @@ Audit Trail
 
 Traceable recovery decisions and evaluation outcomes.
 
-🏗️ Project Structure
+Project Structure:
 RecoverAI/
 │
 ├── agent/
@@ -363,7 +363,7 @@ RecoverAI/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-⚙️ Tech Stack
+ Tech Stack:
 AI / Machine Learning
 Python
 Scikit-learn
@@ -381,7 +381,7 @@ CSV
 JSON
 Synthetic payment transaction data
 Action-aware recovery simulation
-▶️ Run Locally
+Run Locally:
 1. Clone the repository
 git clone https://github.com/devsawant66/RecoverAI.git
 cd RecoverAI
@@ -398,7 +398,7 @@ streamlit run dashboard/app.py
 
 The RECOVERAI Command Center will open in your browser.
 
-🧪 Run the Evaluation
+Run the Evaluation:
 
 To reproduce the synthetic action-aware evaluation:
 
@@ -408,7 +408,7 @@ This generates evaluation outputs including:
 
 evaluation/batch_results.csv
 evaluation/batch_summary.json
-🔐 Security
+Security:
 
 Sensitive credentials must never be committed to the repository.
 
@@ -423,7 +423,7 @@ api/audit_log.json
 
 The trained model artifact and runtime audit log are generated locally rather than committed to the public repository.
 
-⚠️ Disclaimer
+ Disclaimer:
 
 RECOVERAI is a hackathon/prototype project.
 
@@ -435,7 +435,7 @@ The reported:
 
 is a simulated action-aware evaluation result and does not represent real money recovered from Razorpay production transactions.
 
-🎯 Vision
+ Vision:
 
 RECOVERAI aims to move payment recovery from:
 
@@ -450,16 +450,7 @@ RECOVERAI
 Predict. Decide. Recover. Stop Safely.
 
 
-### After pasting
-
-Click:
-
-**Commit changes**
-
-Use this commit message:
-
-```text
-Improve RECOVERAI project documentation
+VERAI project documentation
 
 Then commit.
 
