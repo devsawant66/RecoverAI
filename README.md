@@ -448,10 +448,3 @@ to:
 RECOVERAI
 
 Predict. Decide. Recover. Stop Safely.
-
-
-VERAI project documentation
-
-Then commit.
-
-After that, send me a screenshot of the top of your GitHub repository. We'll add your dashboard screenshots next, which will make the repository look much more impressive to judges/recruiters.
