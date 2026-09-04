@@ -1,0 +1,86 @@
+{
+    "evaluation_type": "synthetic_action_aware_simulation",
+    "evaluation_batch_size": 4000,
+    "total_revenue_at_risk": 11313391.03,
+    "baseline_recovered_revenue": 2582334.75,
+    "recoverai_recovered_revenue": 3600742.48,
+    "incremental_revenue_vs_baseline": 1018407.73,
+    "baseline_successful_recoveries": 939,
+    "recoverai_successful_recoveries": 1455,
+    "baseline_recovery_rate": 0.2283,
+    "recoverai_recovery_rate": 0.3183,
+    "recoverai_allowed_actions": 1973,
+    "human_escalations": 725,
+    "blocked_actions": 0,
+    "stopped_actions": 1302,
+    "action_metrics": {
+        "HUMAN_REVIEW": {
+            "payments": 725,
+            "successful_recoveries": 0,
+            "revenue_recovered": 0.0,
+            "recovery_rate": 0.0
+        },
+        "PAYMENT_REMINDER": {
+            "payments": 903,
+            "successful_recoveries": 590,
+            "revenue_recovered": 1644932.56,
+            "recovery_rate": 0.6732
+        },
+        "RETRY": {
+            "payments": 816,
+            "successful_recoveries": 653,
+            "revenue_recovered": 1349155.16,
+            "recovery_rate": 0.7773
+        },
+        "STOP": {
+            "payments": 1302,
+            "successful_recoveries": 0,
+            "revenue_recovered": 0.0,
+            "recovery_rate": 0.0
+        },
+        "UPDATE_PAYMENT_METHOD": {
+            "payments": 254,
+            "successful_recoveries": 212,
+            "revenue_recovered": 606654.76,
+            "recovery_rate": 0.8266
+        }
+    },
+    "failure_metrics": {
+        "BANK_DECLINED": {
+            "payments": 818,
+            "revenue_at_risk": 2257248.21,
+            "recoverai_revenue": 0.0,
+            "successful_recoveries": 0
+        },
+        "BANK_TIMEOUT": {
+            "payments": 1055,
+            "revenue_at_risk": 2822241.78,
+            "recoverai_revenue": 1155356.5,
+            "successful_recoveries": 541
+        },
+        "CARD_EXPIRED": {
+            "payments": 372,
+            "revenue_at_risk": 1016577.56,
+            "recoverai_revenue": 606654.76,
+            "successful_recoveries": 212
+        },
+        "INSUFFICIENT_FUNDS": {
+            "payments": 790,
+            "revenue_at_risk": 2236131.54,
+            "recoverai_revenue": 1068750.8,
+            "successful_recoveries": 348
+        },
+        "NETWORK_ERROR": {
+            "payments": 770,
+            "revenue_at_risk": 2466966.95,
+            "recoverai_revenue": 765212.91,
+            "successful_recoveries": 351
+        },
+        "UNKNOWN_ERROR": {
+            "payments": 195,
+            "revenue_at_risk": 514224.99,
+            "recoverai_revenue": 4767.51,
+            "successful_recoveries": 3
+        }
+    }
+}
